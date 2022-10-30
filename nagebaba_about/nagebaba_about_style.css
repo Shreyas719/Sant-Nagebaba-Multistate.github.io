@@ -152,7 +152,7 @@
 	background-size: 100% 100%;
 	background-attachment: fixed;
 	box-sizing: border-box;
-	background-image: url("/nagebaba_about/happy.jpg");
+	background-image: url("nagebaba_about/happy.jpg");
 }
 .overlay{
 	float: left;
