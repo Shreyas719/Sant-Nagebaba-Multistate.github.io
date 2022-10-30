@@ -1,0 +1,205 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.menu_email li:hover{
+    color:yellow !important;
+}
+.menu_logo{
+    height: 60px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 2px solid black;
+}
+.slider_img{
+    height: 460px;
+}
+@media(max-width:667px){
+    .slider_img{
+        height: 250px;
+    }
+}
+.slider_btn{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    float: left;
+    margin-top: 14%;
+}
+@media(max-width:667px){
+    .slider_btn{
+        margin-top: 18.3%;
+
+    }
+    .sb1{
+        margin-left: 10px;
+    }
+    .sb2{
+        margin-right: 10px;
+    }
+}
+.btncir{
+    border-radius: 50px;
+}
+.form_icon{
+    height: 60px;
+    width: 60px;
+    float: left;
+    background-color: #17a2b8;
+    color: white;
+    border-radius: 50%;
+    font-size: 30px;
+    margin-left: 32.2%;
+}
+.form_icon1{
+    height: 60px;
+    width: 60px;
+    float: left;
+    color: #17a2b8;
+    border-radius: 50%;
+    font-size: 30px;
+    margin-left: 32.2%;
+}
+
+.form_icon i{
+    margin-top: 10px;
+}
+.about_choose{
+    background-image: linear-gradient(to right, #13536e 65%,white);
+}
+.about_choose1{
+    background-image: linear-gradient(to left, #13536e 55%,white);
+}
+.isize{
+    font-size: 60px;
+}
+.why_choose_us{
+    border-radius: 30px 0px 30px 0px;
+}
+.why_choose_us1{
+    border-top-left-radius:30px !important;
+}
+.why_choose_us_icon{
+    height: 100px;
+    width: 100px;
+    background-color: #e2ccd0;
+    font-size: 50px;
+    text-align: center;
+    border-radius: 50%;
+
+}
+.why_choose_us_icon i{
+    margin: 20px;
+    color: #17a2b8;
+}
+.why_choose_us:hover i{
+    color: white !important;
+}
+.why_choose_us:hover{
+    background-color: #13536e;
+    color: white !important;
+}
+.why_choose_us:hover .why_choose_us1{
+    background-color: #13536e !important;
+}
+
+.icons{
+    font-size: 50px;
+}
+
+.use_text{
+    color: #12687f;
+}
+.use_bg{
+    background-color: #12687f !important;
+    
+}
+
+.op{
+    opacity: 0.5;
+}
+.cardb:hover .card_b{
+    background-color: #13536e;
+    color: white;
+    transform: scaleX(1.3);
+    transform: scaleY(1.3);
+}
+
+/* Dropdown external css */
+.bb:hover{
+    color: black;
+}
+.dropdown-menu a{
+    /* border-radius: 20px; */
+    text-align: center;
+    
+}
+.dropdown-menu a:hover{
+    color: blue;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+    background-color:white;
+}
+
+/* About external css */
+.about-slider{
+	height: 450px;
+	width: 100%;
+	float: left;
+	background-size: 100% 100%;
+	background-attachment: scroll;
+	box-sizing: border-box;
+    background-color: white;
+	background-image: url("calendar_img.png");
+}
+.overlay{
+	float: left;
+	height: 100%;
+	width: 100%;
+	background: hsla(0,0%, 0%,0.7);
+}
+.overlay h1{
+	font-size: 50px !important;
+}
+.slide-caption{
+	width: 100%;
+	margin-top: 10%;
+	padding-left: 5%;
+}
+@media(max-width:667px){
+    .about-slider{
+        width: 100%;
+        height: 270px;
+        float: left;
+        
+    }
+    
+    .overlay h1{
+        font-size: 45px !important;
+       margin-top: 100px !important;
+        margin-left: 0px !important;
+    }
+    .slide-caption ul{
+        margin-left: 0px !important;
+    }
+}
+/* User */
+.userbg{
+    background-image: url('/management_about/testimonial-bg-1.png');
+}
+@media(max-width:667px){
+    .incre_h{
+        height: 300px;
+    }
+    .incre_h img{
+        height: 250px;
+        width: 100%;
+    }
+}
+
+.li_bg{
+    background-color: #12687f;
+}
