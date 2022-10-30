@@ -150,10 +150,10 @@
 	width: 100%;
 	float: left;
 	background-size: 100% 100%;
-	/* background-attachment: fixed;
+	background-attachment: fixed;
 	box-sizing: border-box;
-	background-image: url("chairman_img.jpg"); */
-    background-image:url('https://nagebabamultistate.in/assets/images/back/happy.jpg');
+	background-image: url("chairman_img.jpg"); 
+    
     background-attachment: fixed;
 }
 .overlay{
