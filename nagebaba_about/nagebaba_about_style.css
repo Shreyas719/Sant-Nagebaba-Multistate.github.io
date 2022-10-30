@@ -146,13 +146,14 @@
 
 /* About external css */
 .about-slider{
+    background-image: url("happy.jpg");
 	height: 450px;
 	width: 100%;
 	float: left;
 	background-size: 100% 100%;
 	background-attachment: fixed;
 	box-sizing: border-box;
-	background-image: url("/nagebaba_about/happy.jpg");
+	
 }
 .overlay{
 	float: left;
