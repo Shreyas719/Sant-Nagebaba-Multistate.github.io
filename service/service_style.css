@@ -211,6 +211,6 @@
 @media(max-width:500px){
     .ishift{
         position: absolute !important;
-        left: 310px !important;
+        left: 280px !important;
     }
 }
